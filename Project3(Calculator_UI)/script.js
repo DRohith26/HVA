@@ -14,3 +14,6 @@ function exe(){
 function cancel(){
     val.value=val.value.substr(0,val.value.length-1);
 }
+function squareroot(){
+  val.value=Math.pow(val.value,0.5);
+}
